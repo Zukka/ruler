@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Ruler">
+        <attr name="rulerHeight" format="float" />
+        <attr name="markCmWidth" format="float" />
+        <attr name="markHalfCmWidth" format="float" />
+        <attr name="markMmWidth" format="float" />
+        <attr name="rulerOrientation" format="enum">
+            <enum name="Horizontal" value="0" />
+            <enum name="Vertical" value="1" />
+        </attr>
+        <attr name="measureUnit" format="enum">
+            <enum name="Inch" value="0" />
+            <enum name="Millimeter" value="1" />
+        </attr>
+        <attr name="textColor" format="string" />
+        <attr name="rulerBackgroundColor" format="string" />
+        <attr name="lineColor" format="color" />
+    </declare-styleable>
+</resources>
