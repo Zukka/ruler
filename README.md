@@ -1,4 +1,4 @@
-# Android ruler
+# Android ruler library
 
 Library for a customizable ruler:
 - supports inches and millimeters
